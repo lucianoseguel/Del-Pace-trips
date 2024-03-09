@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+/* Todas las propiedades CSS */
+:root{
+    --main_font--:"Noto Sans", sans-serif;
+    --secondary_font--:"Lato", sans-serif;
+    --background_image--: 
+    
+}
+
+.background{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/racimodeuva.png');
+    background-size: cover; /* Cubre toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    height: 100vh; /* Asegura que el fondo ocupe toda la altura de la ventana gráfica */
+    
+    
+   
+}
+
+*{
+    box-sizing: border-box;
+    font-family: var(--secondary_font--);
+
+
+}
+h1 {
+    margin: auto;
+    background-color: aqua;
+    width: 75vw;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    
+}
