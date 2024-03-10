@@ -4,22 +4,23 @@
 :root{
     --main_font--:"Noto Sans", sans-serif;
     --secondary_font--:"Lato", sans-serif;
-    --background_image--: 
-    
+
+
+    /*-------------------------COLOR PALLETE-------------------------*/
+    --field-drab: #654D23ff;
+    --mint-cream: #EFF4EDff;
+    --dun: #DBC7A5ff;
+    --rich-black: #131B2Bff;
+    --dark-moss-green: #3C4414ff;
+    --umber: #675646ff;
+    --avocado: #5A7C13ff;
+    /*COLOR PALLETE LINK: https://coolors.co/654d23-eff4ed-dbc7a5-131b2b-3c4414-675646-5a7c13 */
 }
 
-.background{
-    margin: 0;
-    padding: 0;
-    background-image: url('../images/racimodeuva.png');
-    background-size: cover; /* Cubre toda la pantalla */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* No repetir la imagen */
-    height: 100vh; /* Asegura que el fondo ocupe toda la altura de la ventana gráfica */
-    
-    
-   
-}
+
+
+
+
 
 *{
     box-sizing: border-box;
@@ -27,12 +28,49 @@
 
 
 }
-h1 {
-    margin: auto;
-    background-color: aqua;
-    width: 75vw;
-    height: auto;
-    padding: 10px;
+body, html {
+    margin: 0;
+    padding: 0;
+    
+    overflow-x: hidden;
+  }
+
+.background{
+    
+    padding: 0;
+    border: 0;
+    
+    
+    display: flex;
+    
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -10;
+    position: relative;
+    
+    
+}
+.absolute_define {
+    position: absolute;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 40vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: auto;
+    max-width: 70vw 
+}
+
+h1 {
+    
+    color: var(--dark-moss-green);
+    font-size: 5vw;
+    font-weight: 1000;
+    
+   
     
 }
