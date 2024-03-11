@@ -94,13 +94,14 @@ h1 {
     
     font-size: 4vw;
     color: var(--dark-moss-green);
+    font-size: 5vw;
     font-weight: 1000;
 }
 
 h2{
     text-align: center;
     font-family: var(--primary_font--);
-    margin-top: 3em;
+    margin: 2.5em;
     font-size: 2em;
     font-weight: 300;
     display: block;
