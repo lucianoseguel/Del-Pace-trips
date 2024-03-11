@@ -36,9 +36,11 @@
 body, html {
     margin: 0;
     padding: 0;
-    
+    align-content: center;
     overflow-x: hidden;
   }
+
+
 
 .background{ /* DEfine images in background */
     
@@ -68,9 +70,6 @@ body, html {
     
     height: auto;
     max-width: 70vw 
-}
-@media screen {
-    
 }
 
 
@@ -124,30 +123,43 @@ h2{
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
+    max-width: 75vw;
+    margin: auto;
+    
 }
 .box_services{
     display: flex;
     flex: 1;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 33vw;
+    width: 25vw;
+    box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
-    flex-grow: 2;
+    flex-grow: 1;
+    margin-left: 1em;
+    margin-right: 1em; 
+    margin-bottom: 2em;
+    
+    
     
     
 }
 
 .descripiton_services{
     font-family: var(--primary_font--);
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     text-align: center;
-    
-    margin: 2em;
+    margin-top: 1em;
+   
 }
 
 .img_services{
-    width: 33vw;
+    width: 25vw;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+    margin: 0;
 }
 
 
@@ -165,4 +177,23 @@ h2{
         font-size: 3vh;
     }
     
+    .box_services{
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80vw;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .img_services{
+        width: 80vw;
+    }
+    .descripiton_services{
+        font-family: var(--primary_font--);
+        font-size: 2vh;
+        text-align: center;
+        margin: 1em;
+    }
+
 }
