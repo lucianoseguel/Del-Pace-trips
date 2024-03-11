@@ -140,7 +140,7 @@ h2{
 
 .descripiton_services{
     font-family: var(--primary_font--);
-    font-size: medium;
+    font-size: 1.3vw;
     text-align: center;
     
     margin: 2em;
