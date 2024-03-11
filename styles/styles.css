@@ -38,7 +38,12 @@ body, html {
     padding: 0;
     align-content: center;
     overflow-x: hidden;
+    
   }
+
+section{
+    background-color: var(--mint-cream);
+ }
 
 
 
@@ -100,7 +105,8 @@ h1 {
 h2{
     text-align: center;
     font-family: var(--primary_font--);
-    margin: 2.5em;
+    margin: 0;
+    padding: 2.5em;
     font-size: 2em;
     font-weight: 300;
     display: block;
@@ -151,6 +157,8 @@ h2{
     font-size: 1.4vw;
     text-align: center;
     margin-top: 1em;
+    color: var(--field-drab);
+    font-weight: 300;
    
 }
 
