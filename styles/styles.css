@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+
 /* Todas las propiedades CSS */
 :root{
     --main_font--:"Noto Sans", sans-serif;
     --secondary_font--:"Lato", sans-serif;
-
+    --primary_font--:  "Nunito", sans-serif;
 
     /*-------------------------COLOR PALLETE-------------------------*/
     --field-drab: #654D23ff;
@@ -21,7 +26,7 @@
 
 
 
-
+/* First line------------------------------------*/
 *{
     box-sizing: border-box;
     font-family: var(--secondary_font--);
@@ -35,7 +40,7 @@ body, html {
     overflow-x: hidden;
   }
 
-.background{
+.background{ /* DEfine images in background */
     
     padding: 0;
     border: 0;
@@ -51,7 +56,7 @@ body, html {
     
     
 }
-.absolute_define {
+.absolute_define {  /* define main text*/ 
     position: absolute;
     display: flex;
     text-align: center;
@@ -64,13 +69,99 @@ body, html {
     height: auto;
     max-width: 70vw 
 }
+@media screen {
+    
+}
+
+
+.absolute_2nd { /*First p*/
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 75vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    max-width: 70vw 
+    
+}
+
+
 
 h1 {
     
+    font-size: 4vw;
     color: var(--dark-moss-green);
-    font-size: 5vw;
     font-weight: 1000;
+}
+
+h2{
+    text-align: center;
+    font-family: var(--primary_font--);
+    margin-top: 3em;
+    font-size: 2em;
+    font-weight: 300;
+    display: block;
+}
+
+
+#primertitulo{
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    color: var(--rich-black);
+
+}
+
+/* Services----------------------------*/
+
+#aside_a {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box_services{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33vw;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 2;
     
-   
+    
+}
+
+.descripiton_services{
+    font-family: var(--primary_font--);
+    font-size: medium;
+    text-align: center;
+    
+    margin: 2em;
+}
+
+.img_services{
+    width: 33vw;
+}
+
+
+
+
+
+/* When screen is on mobile--------------------------------- */
+@media screen and (max-width: 800px)  {
+
+    .absolute_define {
+        font-size: 5.5vh;
+    }
+
+    #primertitulo{
+        font-size: 3vh;
+    }
     
 }
