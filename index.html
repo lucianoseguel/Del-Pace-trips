@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Correa Viajes</title>
+    <title>Del Pace Viajes</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="icon" href="images/CORREA TRAVELS.png" type="image/png">
+    <link rel="icon" href="images/DEL PACE/ico head.png" type="image/png">
 </head>
 <body>
     <header class="center">
         <nav>
-            <a href="#"><img class="iconimg" src="images/ico en nav.png" alt="icon"></a>
-            <ul>
-                
-                <li>Inicio</li>
-                <li>Nosotros</li>
-                <li>Todos los Servicios</li>
-            </ul>
-
+            
+            
+            <a href="#"  id="nav_right"><img class="iconimg" src="images/DEL PACE/para el nav.png" alt="icon"></a>
+            
+            <a href="#" class="hov" >Inicio</a>
+            <a href="#" class="hov">Nosotros</a>
+            <a href="#" class="hov">Servicios</a>
+            
         </nav>
+        
+        <script>
+            // Agregar interactividad para mostrar/ocultar la lista de navegación
+            document.querySelector('.icono-hamburguesa').addEventListener('click', function() {
+                document.querySelector('.nav-lista').classList.toggle('mostrar');
+            });
+        </script>
+
     </header>
     <main>
     <!--First block of images-->
@@ -63,7 +71,7 @@
     </section>
     </main>
     <footer>
-        <p> &copy; 2024 Correa Travels Mendoza </p>
+        <p> &copy; 2024 Del Pace Travels Mendoza </p>
         <a href="https://wa.link/mdecuw" target="_blank"><img src="images/whatsapp icon.png" alt="WSP Icon" > +54 9 2615 89-4456 </a>
     </footer>
 </body>
