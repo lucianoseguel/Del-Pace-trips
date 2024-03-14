@@ -72,7 +72,7 @@ nav{
 
 nav a{
     float: left;
-    clear: right;
+  
     display: flex;
     padding: 0.5em 1em;
     flex: 1;
@@ -85,9 +85,7 @@ nav a{
     
 }
 
-#nav_right{
-    flex: 10;
-}
+
 
 .hov{
     display: flex;
@@ -108,8 +106,10 @@ nav a{
 .iconimg{
     max-height: 8vh;
     margin-top: 2vh;
-    margin: 0;
+    margin: 0 40px;
     padding: 0;
+    display: inline;
+    
 }
 
 
@@ -258,7 +258,7 @@ h2{
     width: 5vw;
     background-color: #25D366; /* Color de WhatsApp */
     color: #fff;
-    padding: 5px;
+    padding: 2px;
     border-radius: 50%;
     text-align: center;
     font-size: 20px;
@@ -297,6 +297,13 @@ footer a{
 
 /* When screen is on mobile--------------------------------- */
 @media screen and (max-width: 900px)  {
+
+    .iconimg{
+        max-height: 5vh;
+        margin-top: 2vh;
+        margin: 0;
+        padding: 0;
+    }
 
     .absolute_define {
         font-size: 5.5vh;
