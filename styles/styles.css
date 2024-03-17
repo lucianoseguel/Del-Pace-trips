@@ -113,6 +113,10 @@ nav a{
 }
 
 
+
+
+/*---------------------------------Principal----------------------*/
+
 section{
     background-color: var(--mint-cream);
     margin: 0;
@@ -327,7 +331,7 @@ footer a{
     }
     .descripiton_services{
         font-family: var(--primary_font--);
-        font-size: 2vh;
+        font-size: 3vh;
         text-align: center;
         margin: 1em;
     }
