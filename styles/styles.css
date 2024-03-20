@@ -44,9 +44,9 @@ body, html {
 
 
 header{
-    position: sticky;
-    height: 12vh;
-    ;
+    position: relative;
+    height: 12vh;;
+    
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -91,14 +91,15 @@ nav a{
     display: flex;
     flex-grow: 1;
     flex: 1;
+    border-style: none;
+    border-bottom: 0 none ;
+    padding: 10px 15px;
+    transition: transform 0.5s ease-in-out;
 }
 
 .hov:hover {
-    
+    transition: border-bottom 1s ease-in-out;
     border-bottom: 2px solid var(--dark-moss-green);
-    transition: border-bottom 0.5s ease-in-out;
-    
-    
     
 }
 
@@ -339,6 +340,7 @@ footer a{
     nav a {
         float: none;
         width: 100%;
+      
     }
     .whatsapp-btn {
         position: fixed;
