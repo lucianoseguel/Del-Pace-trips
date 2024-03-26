@@ -16,7 +16,7 @@ window.sr = ScrollReveal();
         });
 //TEXTO 1
     sr.reveal('#primertitulo',{
-            duration: 4000,
+            duration: 3000,
             
             });
 
@@ -31,15 +31,12 @@ sr.reveal('h2',{
     distance: '50px'
     });
 
-sr.reveal('aside',{
-        duration: 1000,
-        origin: 'bottom',
-        distance: '100px'
-        });
-sr.reveal('.img_services',{
+
+sr.reveal('.box_services',{
             duration: 3000,
             origin: 'bottom',
             distance: '100px'
             });
+
     
 
