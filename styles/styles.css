@@ -324,6 +324,11 @@ footer a{
         font-size: 3vh;
     }
     
+ 
+    section, aside{
+        margin: auto;
+    }
+
     .box_services{
         display: flex;
         flex: 1;
@@ -332,8 +337,9 @@ footer a{
         width: 80vw;
         align-items: center;
         justify-content: space-between;
+        margin: auto;
       }
-      .img_services{
+    .img_services{
         width: 80vw;
     }
     .descripiton_services{
