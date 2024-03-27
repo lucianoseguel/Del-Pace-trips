@@ -323,6 +323,12 @@ footer a{
 
 /* When screen is on mobile--------------------------------- */
 @media screen and (max-width: 900px)  {
+
+    header{
+        height: 9vh;
+    }
+
+
     .abrir-menu,
     .cerrar-menu {
         display: block;
