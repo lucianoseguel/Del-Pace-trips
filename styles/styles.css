@@ -334,6 +334,8 @@ footer a{
 
     .abrir-menu {
         color: #1c1c1c;
+        margin-right: 25px;
+        
     }
 
     .cerrar-menu {
@@ -352,9 +354,10 @@ footer a{
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: #1c1c1c;
+        background-color: var(--dun);
         padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        box-shadow: 0 0 0 80vmax var(--dun);
+        z-index: 20;
     }
 
     .nav.visible {
@@ -377,7 +380,7 @@ footer a{
 
 
     .iconimg{
-        max-height: 7vh;
+        max-height: 5.5vh;
         margin-top: 2vh;
         margin: 1em;
         padding: 0;
