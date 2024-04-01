@@ -33,7 +33,7 @@ sr.reveal('h2',{
 
 
 sr.reveal('.box_services',{
-            duration: 3000,
+            duration: 1000,
             origin: 'bottom',
             distance: '100px'
             });

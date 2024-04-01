@@ -220,6 +220,14 @@ h2{
 
 }
 
+#objetivo{  /* Objetivo de la empresa */
+    max-width: 55vw;
+    margin: auto;
+    text-align: center;
+    
+    line-height: 2.5em;
+}
+
 /* Services----------------------------*/
 
 #aside_a {
@@ -328,6 +336,7 @@ footer a{
         height: 9vh;
     }
 
+    
 
     .abrir-menu,
     .cerrar-menu {
@@ -400,10 +409,22 @@ footer a{
         font-size: 3vh;
     }
     
- 
-    section, aside{
-        margin: auto;
+ /* Cuerpo -------------------------------*/
+    aside{
+      padding-right: 80vw ; 
+
+        
     }
+
+    #objetivo{  /* Objetivo de la empresa */
+        max-width: 65vw;
+        margin: auto;
+        text-align: left;
+        
+        line-height: 2.5em;
+    }
+
+
 
     .box_services{
         display: flex;
@@ -414,7 +435,14 @@ footer a{
         align-items: center;
         justify-content: space-between;
         margin: auto;
+        
+
+
+
       }
+
+
+
     .img_services{
         width: 80vw;
     }
