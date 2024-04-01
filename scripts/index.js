@@ -31,11 +31,16 @@ sr.reveal('h2',{
     distance: '50px'
     });
 
-
+sr.reveal('#objetivo',{
+        duration: 700,
+        origin: 'bottom',
+        distance: '150px'
+        });
+    
 sr.reveal('.box_services',{
-            duration: 1000,
+            duration: 500,
             origin: 'bottom',
-            distance: '100px'
+            distance: '200px'
             });
 
     
