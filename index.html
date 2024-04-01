@@ -16,19 +16,28 @@
     <a href="https://wa.link/wbp3zp" target="_blank"><img class="whatsapp-btn" src="images/sticky whatsapp.png" alt="wsp"></a>
     <header class="center">
         <a href="#"><img class="iconimg" src="images/DEL PACE/para el nav.png" alt="icon"></a>
-        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
-        <nav class="nav" id="nav">
-            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+        
+        <nav>
+            
+            
+            <ul class="sidebar">
+                <li onclick=hideSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#" class="hov" >Inicio</a></li>
+                <li><a href="#" class="hov">Nosotros</a></li>
+                <li><a href="#" class="hov">Servicios</a></li>
+                <li><button class="hov"><img src="images/brazil.png" alt="Span" ></button></li>
+                <li><button oneclick="cambiarTexto()" class="hov"><img src="images/usa.png" alt="Span" ></button></li>
+                <li><button oneclick="cambiarTexto()" class="hov"><img src="images/spain.png" alt="Span"></button></li>
+            </ul>
+            
             <ul>
-                
-            <li><a href="#" class="hov" >Inicio</a></li>
-
-            <li><a href="#" class="hov">Nosotros</a></li>
-            <li><a href="#" class="hov">Servicios</a></li>
-            <li><button  class="hov"><img src="images/brazil.png" alt="Span" ></button></li>
-            <li><button oneclick="cambiarTexto()" class="hov"><img src="images/usa.png" alt="Span" ></button></li>
-            <li><button oneclick="cambiarTexto()" class="hov"><img src="images/spain.png" alt="Span"></button></li>
-
+            <li><a href="#" class="hov hideonmobile" >Inicio</a></li>
+            <li><a href="#" class="hov hideonmobile">Nosotros</a></li>
+            <li><a href="#" class="hov hideonmobile">Servicios</a></li>
+            <li><button class="hov hideonmobile"><img src="images/brazil.png" alt="Span" ></button></li>
+            <li><button oneclick="cambiarTexto()" class="hov hideonmobile"><img src="images/usa.png" alt="Span" ></button></li>
+            <li><button oneclick="cambiarTexto()" class="hov hideonmobile"><img src="images/spain.png" alt="Span"></button></li>
+            <li onclick=showSidebar() class="menu-button"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
             </ul>
         </nav>
         
@@ -90,6 +99,7 @@
         <a href="https://wa.link/wbp3zp" target="_blank"><img src="images/whatsapp icon.png" alt="WSP Icon" > +54 9 2615 89-4456 </a>
     </footer>
     <script src="scripts/index.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/showSidebar.js"></script>
+    
 </body>
 </html>
