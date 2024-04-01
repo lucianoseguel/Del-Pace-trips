@@ -11,12 +11,12 @@ window.sr = ScrollReveal();
 
 //FONDO
     sr.reveal('.background',{
-        duration: 2000,
+        duration: 1000,
         
         });
 //TEXTO 1
     sr.reveal('#primertitulo',{
-            duration: 3000,
+            duration: 1000,
             
             });
 
