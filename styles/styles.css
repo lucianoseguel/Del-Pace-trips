@@ -87,7 +87,7 @@ nav a{
 
 .sidebar{
     position:fixed;
-    top: -1rem;
+    top: -1em;
     right: 0;
     height: 120vh;
     width: 60vw;
