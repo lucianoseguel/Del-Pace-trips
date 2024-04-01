@@ -2,9 +2,9 @@ window.sr = ScrollReveal();
 
 // TITULO
     sr.reveal('h1',{
-    duration: 3000,
+    duration: 1000,
     origin: 'bottom',
-    distance: '-20px'
+    distance: '-50px'
     });
 
 
@@ -43,5 +43,6 @@ sr.reveal('.box_services',{
             distance: '200px'
             });
 
-    
+
+        
 
