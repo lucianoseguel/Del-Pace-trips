@@ -8,3 +8,7 @@ function hideSidebar(){
     sidebar.style.display = 'none'
 }
 
+// JavaScript para manejar la apertura del menú
+document.getElementById('toggleMenu').addEventListener('click', function() {
+    document.querySelector('nav').classList.toggle('.sidebar');
+});

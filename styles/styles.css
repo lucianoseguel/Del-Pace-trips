@@ -101,13 +101,14 @@ nav a{
     padding-top:1rem ;
     font-size: 20px;
     
+    
 }
 
 
 .sidebar li {
     width: 100%;
     
-    margin:0.2em;
+    padding:0.2em;
    
 }
 
@@ -120,7 +121,12 @@ nav a{
 display: none;
 }
 
+#closebar{
+    justify-content: end;
+    margin-right: -1.6vw;
+    margin-top: -1.6vh;
 
+}
 
 button {
 background: none;
@@ -367,7 +373,7 @@ footer a{
         padding-right: 1rem;
 
         }
-
+    
 
 
 
