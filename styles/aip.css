@@ -262,8 +262,11 @@ h2{
     display: grid;
     grid-auto-flow: row;
     align-items: center;
-    
-    margin: auto;
+    justify-items: center;
+    padding: 0 10vw ;
+    grid-gap: 2vw;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 25vw 25vw 25vw;
     
 }
 .box_services{
@@ -279,9 +282,6 @@ h2{
     margin-left: 1em;
     margin-right: 1em; 
     margin-bottom: 2em;
-    
-    
-    
     
 }
 
@@ -392,11 +392,22 @@ footer a{
     }
     
  /* Cuerpo -------------------------------*/
-    aside{
-      padding-right: 80vw ; 
 
-        
-    }
+    
+#aside_a {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 75vw;
+    margin: 1vw;
+    
+    
+}   
+
+
 
     #objetivo{  /* Objetivo de la empresa */
         max-width: 65vw;
