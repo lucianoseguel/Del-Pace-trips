@@ -278,6 +278,7 @@ h2{
     flex-wrap: wrap;
     flex-direction: column;
     width: 25vw;
+    
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
@@ -307,6 +308,7 @@ h2{
 
 .img_services:hover{
     transform: scale(1.02);
+    
 }
 
 
@@ -420,19 +422,26 @@ footer a{
 
     .box_services{
         display: block;
-        
+        box-sizing:content-box;
         width: 80vw;
         height: auto;
         align-items: center;
         justify-content: center;
-        margin: auto;
+        margin: 25px auto;
+        border-radius: 22px;
         position: relative;
-
+        border: var(--field-drab) 1px solid;
       }
 
 
     .img_services{
+        box-sizing: border-box;
         width: 80vw;
+        height: 35vh;
+        margin:  auto;
+        padding: 2px;
+        border-radius: 20px;
+        
     }
     .descripiton_services{
         font-family: var(--primary_font--);
