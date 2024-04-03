@@ -270,14 +270,19 @@ h2{
     
 }
 .box_services{
-    display: block;
+    display: flex;
     flex: 1;
-    
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 25vw;
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
-    margin:auto;
+    flex-grow: 1;
+    margin-left: 1em;
+    margin-right: 1em; 
+    margin-bottom: 2em;
+    
     
     
     
@@ -390,31 +395,34 @@ footer a{
     }
     
  /* Cuerpo -------------------------------*/
-    aside{
-      padding-right: 80vw ; 
+    #aside_a{
+        
+        
+        
+    justify-content: center;
 
         
     }
 
     #objetivo{  /* Objetivo de la empresa */
         max-width: 65vw;
-        margin: auto;
+        position: relative;
         text-align: left;
-        
+        padding: auto;
         line-height: 2.5em;
     }
 
 
 
     .box_services{
-        display: flex;
-        flex: 1;
-        flex-wrap: wrap;
-        flex-direction: column;
+        display: block;
+        
         width: 80vw;
+        height: auto;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         margin: auto;
+        position: relative;
 
       }
 
