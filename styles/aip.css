@@ -278,12 +278,13 @@ h2{
     flex-wrap: wrap;
     flex-direction: column;
     width: 25vw;
+    height: auto;
     
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
-    
+    overflow: hidden;
     
 }
 
@@ -294,20 +295,24 @@ h2{
     margin-top: 1em;
     color: var(--field-drab);
     font-weight: 300;
+    
    
 }
 
 .img_services{
     width: 25vw;
-    height: 350px;
-    object-fit: cover;
-    position: relative;
-    margin: 0;
+    
+    height: 300px;
+    transform-origin: bottom;
+    
+    overflow: hidden;
     transition: transform 0.5s ease-in-out;
 }
 
 .img_services:hover{
-    transform: scale(1.02);
+    transform: scale(1.2);
+    overflow: hidden;
+    
     
 }
 
@@ -430,7 +435,7 @@ footer a{
         margin: 25px auto;
         border-radius: 22px;
         position: relative;
-        border: var(--field-drab) 1px solid;
+        border: var(--field-drab) 0.5px solid;
       }
 
 
