@@ -40,6 +40,7 @@ body, html {
     align-content: center;
     overflow-x: hidden;
     
+    
   }
 
 
@@ -171,6 +172,7 @@ section{
     background-color: var(--mint-cream);
     margin: 0;
     padding: 0;
+    
  }
 
 
@@ -280,9 +282,7 @@ h2{
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
-    margin-left: 1em;
-    margin-right: 1em; 
-    margin-bottom: 2em;
+    
     
 }
 
@@ -400,10 +400,12 @@ footer a{
         
     display: block;
     justify-content: center;
-
+   
         
     }
-
+    section{
+        padding: 10px;
+    }
 
 
     #objetivo{  /* Objetivo de la empresa */
