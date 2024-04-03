@@ -270,19 +270,14 @@ h2{
     
 }
 .box_services{
-    display: flex;
+    display: block;
     flex: 1;
-    flex-wrap: wrap;
-    flex-direction: column;
+    
     width: 25vw;
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
-    flex-grow: 1;
-    margin-left: 1em;
-    margin-right: 1em; 
-    margin-bottom: 2em;
-    
+    margin:auto;
     
     
     
