@@ -351,6 +351,30 @@ h2{
     
 }
 
+#contacto{
+    display: inline-flex;
+    align-content: center;
+    margin:5px;
+    border: 2px;
+    border-radius: 20px  ;
+    background: var(--rich-black);
+    padding: 7px 15px;
+    color: var(--mint-cream);
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+
+#contacto:hover{
+    
+    background-color: #25D366;;
+    
+}
+
+#contacto svg{
+    fill: var(--mint-cream);
+    margin:1.2px 5px 0 0;
+}
 
 
 /*----------------------Wtsp Button-----------------*/
@@ -412,7 +436,7 @@ footer p{
 
 
 /* When screen is on mobile--------------------------------- */
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 1050px)  {
 
     header{
         height: 9vh;
@@ -506,7 +530,7 @@ footer p{
 
   
     #tipotrans{  /* Medios de transporte y a donde */
-        max-width: 55vw;
+         width: 55vw;
         margin: 20px ;
         
         font-size:larger;
@@ -514,15 +538,16 @@ footer p{
         line-height: 3em;
     }
     
-    
+
     .listadestinos{
         display: block;
         background: var(--mint-cream);
         font-size: 20px;
         text-align: left;
-        width: 100vw;
-        margin-left: 10vw;
+        width: 90vw;
+        margin:auto;
         margin-bottom: 40px;
+        margin-top: 40px;
     }
     
     
