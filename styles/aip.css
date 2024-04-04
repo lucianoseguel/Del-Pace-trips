@@ -168,10 +168,12 @@ cursor: pointer;
 
 /*---------------------------------Principal----------------------*/
 
+
+
 section{
     background-color: var(--mint-cream);
     margin: 0;
-    padding: 0;
+    padding: 1px;
     
  }
 
@@ -250,26 +252,20 @@ h2{
 
 }
 
-#objetivo{  /* Objetivo de la empresa */
-    max-width: 55vw;
-    margin: auto;
-    text-align: center;
-    
-    line-height: 2.5em;
-}
+
 
 /* Services----------------------------*/
 
 #aside_a {
     display: grid;
     grid-auto-flow: row;
-    align-items: center;
+    align-items:start;
     justify-items: center;
     justify-content: space-evenly;
-    
+    margin: 0;
     
     grid-template-columns: 25vw 25vw 25vw;
-    grid-template-rows: 40vw ;
+    grid-template-rows: 30vw ;
     
 }
 .box_services{
@@ -285,6 +281,9 @@ h2{
     justify-content: space-between;
     flex-grow: 1;
     overflow: hidden;
+    border-radius: 22px;
+    position: relative;
+    border: var(--field-drab) 0.5px solid;
     
 }
 
@@ -304,17 +303,65 @@ h2{
     
     height: 300px;
     transform-origin: bottom;
-    
-    overflow: hidden;
+    border-bottom-left-radius: 30px;
+    object-fit: cover;
     transition: transform 0.5s ease-in-out;
 }
 
 .img_services:hover{
     transform: scale(1.2);
-    overflow: hidden;
+    
     
     
 }
+
+#tipotrans{  /* Medios de transporte y a donde */
+    max-width: 55vw;
+    margin: 20px ;
+    
+    font-size:larger;
+    
+    line-height: 3em;
+}
+
+
+.listadestinos{
+    display: block;
+    background: var(--mint-cream);
+   
+    text-align: left;
+    width: 100vw;
+    margin-left: 10vw;
+}
+
+
+.listadestinos ul {
+   display: inline-block;
+   line-height: 2.5em;
+   text-align: left;
+}
+
+.listadestinos li {
+    display: flex;
+    width: 300px;
+    text-align: left;
+    
+   
+    white-space: nowrap;
+ }
+
+ .listadestinos p{
+    text-align: left;
+ }
+
+ .listadestinos svg{
+    max-height: 23px;
+    display: flex;
+    margin: 0;
+    fill: var(--dun);
+    
+}
+
 
 
 /*----------------------Wtsp Button-----------------*/
@@ -325,7 +372,7 @@ h2{
     width: 5vw;
     background-color: #25D366; /* Color de WhatsApp */
     color: #fff;
-    padding: 2px;
+    padding: 10px;
     border-radius: 50%;
     text-align: center;
     font-size: 20px;
@@ -343,14 +390,13 @@ h2{
 
 footer{
     background-color: var(--field-drab);
-    margin: 0;
-    padding: 30px;
-    display: flex;
-    text-align: center;
+    margin: auto;
+    padding: 7vh;
+    display: grid;
+    
+    justify-items: center;
     color: var(--dun);
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
+    
     
 }
 
@@ -358,7 +404,21 @@ footer a{
     display: flex;
     align-items: center;
     color: var(--dun);
+    
+    fill: var(--dun);
+    
+    
+
 }
+
+footer p{
+    margin-left:  6px;
+    
+    
+
+}
+
+
 
 
 
@@ -456,12 +516,20 @@ footer a{
     }
 
   
+    .listadestinos{
+        display: flex;
+        width: 20px;
+    }
+
+
+
     .whatsapp-btn {
         position: fixed;
         bottom: 15px;
         right: 15px;
         width: 8vh;
         z-index: 10;
+        padding: 10px;
     }
 
 }

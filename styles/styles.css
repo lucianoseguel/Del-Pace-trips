@@ -319,7 +319,7 @@ h2{
     width: 5vw;
     background-color: #25D366; /* Color de WhatsApp */
     color: #fff;
-    padding: 2px;
+    padding: 10px;
     border-radius: 50%;
     text-align: center;
     font-size: 20px;
@@ -329,7 +329,7 @@ h2{
 }
 
 .whatsapp-btn:hover {
-    background-color: #128C7E; /* Cambia el color al hacer hover */
+    fill: #128C7E; /* Cambia el color al hacer hover */
 }
 
 
@@ -337,14 +337,13 @@ h2{
 
 footer{
     background-color: var(--field-drab);
-    margin: 0;
-    padding: 30px;
-    display: flex;
-    text-align: center;
+    margin: auto;
+    padding: 7vh;
+    display: grid;
+    
+    justify-items: center;
     color: var(--dun);
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
+    
     
 }
 
@@ -352,8 +351,19 @@ footer a{
     display: flex;
     align-items: center;
     color: var(--dun);
+    
+    fill: var(--dun);
+    
+    
+
 }
 
+footer p{
+    margin-left:  6px;
+    
+    
+
+}
 
 
 /* When screen is on mobile--------------------------------- */
@@ -443,7 +453,19 @@ footer a{
         bottom: 15px;
         right: 15px;
         width: 8vh;
+        padding: 10px;
         z-index: 10;
     }
+
+
+    /* footer----------------------------------------*/
+    footer{
+       margin:auto;
+        
+       
+        
+        
+    }
+    
 
 }
