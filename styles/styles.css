@@ -170,7 +170,7 @@ cursor: pointer;
 section{
     background-color: var(--mint-cream);
     margin: 0;
-    padding: 0;
+    padding: 1px;
  }
 
 
@@ -261,14 +261,13 @@ h2{
 #aside_a {
     display: grid;
     grid-auto-flow: row;
-    align-items: center;
+    align-items:start;
     justify-items: center;
     justify-content: space-evenly;
+    margin-bottom: 100px;
     
-    
-    grid-template-columns: 25vw 25vw ;
+    grid-template-columns: 35vw 35vw ;
     grid-template-rows: 40vw ;
-    
     
 }
 .box_services{
@@ -277,13 +276,16 @@ h2{
     flex-wrap: wrap;
     flex-direction: column;
     width: 25vw;
+    height: auto;
+    
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
-    
-    
-    
+    overflow: hidden;
+    border-radius: 22px;
+    position: relative;
+    border: var(--field-drab) 0.5px solid;
     
 }
 
@@ -294,20 +296,24 @@ h2{
     margin-top: 1em;
     color: var(--field-drab);
     font-weight: 300;
+    
    
 }
 
 .img_services{
     width: 25vw;
-    height: 350px;
+    
+    height: 300px;
+    transform-origin: bottom;
+    border-bottom-left-radius: 30px;
     object-fit: cover;
-    position: relative;
-    margin: 0;
     transition: transform 0.5s ease-in-out;
 }
 
 .img_services:hover{
-    transform: scale(1.02);
+    transform: scale(1.2);
+    
+    
 }
 
 
@@ -404,41 +410,45 @@ footer p{
     }
     
  /* Cuerpo -------------------------------*/
-    #aside_a{
+ #aside_a{
+        
         
     display: block;
-    padding: 10px;
     justify-content: center;
-
+   
         
     }
-
-    #objetivo{  /* Objetivo de la empresa */
-        max-width: 65vw;
-        position: relative;
-        text-align: left;
-        padding: auto;
-        line-height: 2.5em;
+    section{
+        padding: 10px;
     }
+
+
+    
 
 
 
     .box_services{
         display: block;
-        
+        box-sizing:content-box;
         width: 80vw;
         height: auto;
         align-items: center;
         justify-content: center;
-        margin: auto;
+        margin: 25px auto;
+        border-radius: 22px;
         position: relative;
-
+        border: var(--field-drab) 0.5px solid;
       }
 
 
-
     .img_services{
+        box-sizing: border-box;
         width: 80vw;
+        height: 35vh;
+        margin:  auto;
+        
+        border-bottom-left-radius: 30px;
+        
     }
     .descripiton_services{
         font-family: var(--primary_font--);
