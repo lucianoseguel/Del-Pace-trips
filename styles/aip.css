@@ -328,36 +328,25 @@ h2{
 .listadestinos{
     display: block;
     background: var(--mint-cream);
-   
+    
     text-align: left;
     width: 100vw;
     margin-left: 10vw;
+    margin-bottom: 40px;
 }
 
 
-.listadestinos ul {
-   display: inline-block;
-   line-height: 2.5em;
-   text-align: left;
-}
 
-.listadestinos li {
+.listadestinos p{
     display: flex;
-    width: 300px;
-    text-align: left;
+    align-items: center;
     
-   
-    white-space: nowrap;
- }
-
- .listadestinos p{
-    text-align: left;
- }
+}
 
  .listadestinos svg{
     max-height: 23px;
     display: flex;
-    margin: 0;
+    margin:5px;
     fill: var(--dun);
     
 }
@@ -516,11 +505,43 @@ footer p{
     }
 
   
-    .listadestinos{
-        display: flex;
-        width: 20px;
+    #tipotrans{  /* Medios de transporte y a donde */
+        max-width: 55vw;
+        margin: 20px ;
+        
+        font-size:larger;
+        
+        line-height: 3em;
     }
-
+    
+    
+    .listadestinos{
+        display: block;
+        background: var(--mint-cream);
+        font-size: 20px;
+        text-align: left;
+        width: 100vw;
+        margin-left: 10vw;
+        margin-bottom: 40px;
+    }
+    
+    
+    
+    .listadestinos p{
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    
+     .listadestinos svg{
+        max-height: 23px;
+        display: flex;
+        margin:5px;
+        fill: var(--dun);
+        
+    }
+    
 
 
     .whatsapp-btn {
