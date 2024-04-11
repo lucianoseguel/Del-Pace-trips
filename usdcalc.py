@@ -16,7 +16,8 @@ def main():
 
     dolar = Entry(width=20,font=('Arial',14))
     dolar.grid(column=2,row=2)
-
+    
+    
 
 
     #Cuanto se va a cambiar
