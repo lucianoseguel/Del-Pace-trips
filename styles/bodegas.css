@@ -264,7 +264,7 @@ h2{
     justify-content: space-evenly;
     margin: 0;
     
-    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-columns: 25vw 25vw ;
     grid-template-rows: 30vw ;
     
 }
