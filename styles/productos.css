@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+
+/* Todas las propiedades CSS */
+:root{
+    --main_font--:"Noto Sans", sans-serif;
+    --secondary_font--:"Lato", sans-serif;
+    --primary_font--:  "Nunito", sans-serif;
+
+    /*-------------------------COLOR PALLETE-------------------------*/
+    --field-drab: #654D23ff;
+    --mint-cream: #EFF4EDff;
+    --dun: #DBC7A5ff;
+    --rich-black: #131B2Bff;
+    --dark-moss-green: #3C4414ff;
+    --umber: #675646ff;
+    --avocado: #5A7C13ff;
+    /*COLOR PALLETE LINK: https://coolors.co/654d23-eff4ed-dbc7a5-131b2b-3c4414-675646-5a7c13 */
+}
+
+
+
+
+
+/* First line------------------------------------*/
+*{
+    box-sizing: border-box;
+    font-family: var(--secondary_font--);
+    text-decoration: none;
+
+
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    overflow-x: hidden;
+    
+    
+  }
+
+
+header{
+    
+    height: 12vh;;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-grow: 1;
+    flex-direction: row;
+    background-color: var(--mint-cream);
+}
+
+nav, ul,li {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+
+
+nav a{
+    float: left;
+  
+    display: flex;
+    padding: 0.5em 1em;
+    flex: 1;
+    flex-grow: 1;
+    color: var(--dark-moss-green);
+    margin: 0 1em ;
+    font-family: var(--primary_font--);
+    border-top: 2px  solid transparent;
+    border-bottom: 2px solid transparent;
+    
+}
+
+.sidebar{
+    position:fixed;
+    top: -1em;
+    right: 0;
+    height: 120vh;
+    width: 60vw;
+    z-index: 999;
+    background-color: var(--dun);
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top:1rem ;
+    font-size: 20px;
+    
+    
+}
+
+
+.sidebar li {
+    width: 100%;
+    
+    padding:0.2em;
+   
+}
+
+.sidebar li button,.sidebar li a {
+    align-content: center;
+    justify-content: center;
+}
+
+.menu-button{
+display: none;
+}
+
+#closebar{
+    justify-content: end;
+    margin-right: -1.6vw;
+    margin-top: -1.6vh;
+
+}
+
+button {
+background: none;
+cursor: pointer;
+}
+
+
+
+
+.hov{
+    display: flex;
+    flex-grow: 1;
+    flex: 1;
+    border-style: none;
+    border-bottom: 0 none ;
+    padding: 10px 15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hov:hover {
+    transition: border-bottom 1s ease-in-out;
+    border-bottom: 2px solid var(--dark-moss-green);
+    
+}
+
+
+.iconimg{
+    max-height: 8vh;
+    margin-top: 2vh;
+    margin: 0 40px;
+    padding: 0;
+    display: inline;
+    
+}
+
+
+
+
+/*---------------------------------Principal----------------------*/
+
+
+
+section{
+    background-color: var(--mint-cream);
+    margin: 0;
+    padding: 1px;
+    
+ }
+
+
+
+.background{ /* DEfine images in background */
+    
+    padding: 0;
+    border: 0;
+    
+    
+    display: flex;
+    
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    z-index: -10;
+    position: relative;
+    
+    
+}
+.absolute_define {  /* define main text*/ 
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 45vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: auto;
+    max-width: 70vw 
+}
+
+
+.absolute_2nd { /*First p*/
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 75vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    max-width: 70vw 
+    
+}
+
+
+
+h1 {
+    
+    font-size: 4vw;
+    color: var(--mint-cream);
+    font-size: 5vw;
+    font-weight: 1000;
+}
+
+h2{
+    text-align: center;
+    font-family: var(--primary_font--);
+    margin: 0;
+    padding: 2.5em;
+    font-size: 2em;
+    font-weight: 300;
+    display: block;
+}
+
+
+#primertitulo{
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    color: var(--rich-black);
+
+}
+
+
+
+/* Services----------------------------*/
+
+#aside_a {
+    display: block;
+   
+    align-items:start;
+    justify-items: center;
+    justify-content: space-evenly;
+    margin: 0 0 20px 5em;
+    width: 70vw;
+    line-height: 50px;
+ 
+    
+}
+
+#descripcion{
+    margin: auto;
+}
+hr{
+    margin: 30px 0;
+}
+
+.floatimg{
+    float: right;
+    max-width: 350px;
+    height: auto;
+    margin: 0 -14em 20px 3em;
+    border-radius: 20px;
+}
+
+.incluye{
+    margin-left: 2em;
+}
+
+
+
+
+
+
+#contacto{
+    display: inline-flex;
+    align-content: center;
+    margin:5px;
+    border: 2px;
+    border-radius: 20px  ;
+    background: var(--rich-black);
+    padding: 7px 15px;
+    color: var(--mint-cream);
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+
+#contacto:hover{
+    
+    background-color: #25D366;;
+    
+}
+
+#contacto svg{
+    fill: var(--mint-cream);
+    margin:1.2px 5px 0 0;
+}
+
+
+/*----------------------Wtsp Button-----------------*/
+.whatsapp-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 5vw;
+    background-color: #25D366; /* Color de WhatsApp */
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Cambia el color al hacer hover */
+}
+
+
+/* footer -----------------------------------*/
+
+footer{
+    background-color: var(--field-drab);
+    margin: auto;
+    padding: 7vh;
+    display: grid;
+    
+    justify-items: center;
+    color: var(--dun);
+    
+    
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    color: var(--dun);
+    
+    fill: var(--dun);
+    
+    
+
+}
+
+footer p{
+    margin-left:  6px;
+    
+    
+
+}
+
+
+
+
+
+/* When screen is on mobile--------------------------------- */
+@media screen and (max-width: 1050px)  {
+
+    header{
+        height: 9vh;
+    }
+
+    .hideonmobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+        padding-right: 1rem;
+
+        }
+    
+
+
+
+
+
+    .iconimg{
+        max-height: 5.5vh;
+        margin-top: 2vh;
+        margin: 1em;
+        padding: 0;
+    }
+
+    .absolute_define {
+        font-size: 5.5vh;
+    }
+
+    #primertitulo{
+        font-size: 3vh;
+    }
+    
+ /* Cuerpo -------------------------------*/
+
+    
+ #aside_a{
+        
+        
+    display: block;
+    justify-content: center;
+    margin: auto;
+    line-height: 30px;
+
+        
+    }
+    section{
+        padding: 10px;
+    }
+
+
+    #objetivo{  /* Objetivo de la empresa */
+        max-width: 65vw;
+        margin: auto;
+        text-align: left;
+        
+        line-height: 2.5em;
+    }
+
+
+
+    .listadestinos{
+        display: block;
+        background: var(--mint-cream);
+        font-size: 20px;
+        text-align: left;
+        width: 90vw;
+        margin:auto;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+   
+
+
+    .floatimg{
+        display: inline;
+        
+       
+        max-width: 260px;
+        height: auto;
+        margin: 0 0 30px;
+        border-radius: 20px;
+    }
+    
+
+
+    .whatsapp-btn {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        width: 8vh;
+        z-index: 10;
+        padding: 10px;
+    }
+
+}
