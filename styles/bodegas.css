@@ -260,6 +260,7 @@ h2{
     display: grid;
     grid-auto-flow: row;
     align-items:start;
+    grid-gap: 50px;
     justify-items: center;
     justify-content: space-evenly;
     margin: 0;
