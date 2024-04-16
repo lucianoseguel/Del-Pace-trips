@@ -7,56 +7,11 @@ Ingles = 2
 */
 
 
-// script.js
-// Obtener el idioma guardado en localStorage o el idioma del navegador
-const idioma = localStorage.getItem('idioma') || navigator.language.substring(0, 2);
-
-// Cargar las traducciones correspondientes al idioma
-fetch(`translations.json`)
-    .then(response => response.json())
-    .then(translations => {
-        // Aplicar las traducciones en la página
-        Object.keys(translations).forEach(key => {
-            const translation = translations[key];
-            const element = document.querySelector(`[data-translate="${key}"]`);
-            if (element && translation.hasOwnProperty(idioma)) {
-                element.textContent = translation[idioma];
-            }
-        });
-    });
 
 
+function portuguese(){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-function portugeuese(){
-      idioma = 1;
-
-      localStorage.setItem('idioma', 1);
-   
-
-     
-  
-}
-
-
-function portuguese_bodega(){
+    
 
     var titulo = document.querySelector('#titulo')
     titulo.textContent = 'Passeios, Visitas, Degustações'
@@ -120,4 +75,3 @@ if  (window.location.pathname == '/bodegas.html' && idioma == 1)
 
 
 
-*/
