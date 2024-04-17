@@ -62,6 +62,9 @@ function portuguese_index(){
     var oliv = document.querySelector('#oliv')
     oliv.textContent = ' Oliveira Maguay + VinícolaTempus Alba'
 
+    var catena = document.querySelector('#catena')
+    catena.textContent = 'Catena Zapata'
+
      }
 
 
