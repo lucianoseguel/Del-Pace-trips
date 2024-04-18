@@ -12,7 +12,10 @@
     <link rel="icon" href="images/DEL PACE/ico head.png" type="image/png">
     
 </head>
-<body>
+<body >
+    
+
+
     <a href="https://wa.link/wbp3zp" target="_blank"><img class="whatsapp-btn" src="images/sticky whatsapp.png" alt="wsp"></a>
     <header class="center">
         <a href="#"><img class="iconimg" src="images/DEL PACE/para el nav.png" alt="icon"></a>
@@ -22,13 +25,13 @@
             <!--En Escritorio-->
             <ul class="sidebar">
                 <li onclick=hideSidebar() ><a href="#" id="closebar"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                <li><a href="#" id="inicio" class="hov" id="inicio">Inicio</a></li>
+                <li><a href="#"  class="hov" ><p id="inicio">Inicio</p></a></li>
                 <li><a href="#" class="hov" id="contacto">Contacto</a></li>
                 <li><a href="bodegas.html" class="hov" id="servicios">Visitas y Tours</a></li>
                 <li><a href="aventuras.html" class="hov" id="servicios">Aventuras</a></li>
                 <li><button onclick="portuguese_index()" class="hov"><img src="images/brazil.png" alt="Span" ></button></li>
-                <li><button oneclick="cambiarTexto()" class="hov"><img src="images/usa.png" alt="Span" ></button></li>
-                <li><button oneclick="cambiarTexto()" class="hov"><img src="images/spain.png" alt="Span"></button></li>
+                <li><button onclick="cambiarTexto()" class="hov"><img src="images/usa.png" alt="Span" ></button></li>
+                <li><button onclick="span()" class="hov"><img src="images/spain.png" alt="Span"></button></li>
             </ul>
             <!--En dispositivo movil-->
             <ul>
@@ -37,8 +40,8 @@
             <li><a href="bodegas.html" class="hov hideonmobile" id="servicios">Visitas y Tours</a></li>
             <li><a href="aventuras.html" class="hov hideonmobile" id="servicios">Aventuras</a></li>
             <li><button onclick="portuguese_index()" class="hov hideonmobile"><img src="images/brazil.png" alt="Span" ></button></li>
-            <li><button oneclick="cambiarTexto()" class="hov hideonmobile"><img src="images/usa.png" alt="Span" ></button></li>
-            <li><button oneclick="cambiarTexto()" class="hov hideonmobile"><img src="images/spain.png" alt="Span"></button></li>
+            <li><button onclick="cambiarTexto()" class="hov hideonmobile"><img src="images/usa.png" alt="Span" ></button></li>
+            <li><button onclick="span()" class="hov hideonmobile"><img src="images/spain.png" alt="Span"></button></li>
             <li onclick=showSidebar() class="menu-button"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
             </ul>
         </nav>
@@ -75,7 +78,7 @@
 
         <div class="box_services"> 
             <a href="aventuras.html"> <img class="img_services" src="images/alta-montana-2.jpg" alt="High Mountain" >
-             <p class="descripiton_services">Aventuras</p></a>
+             <p id="box2" class="descripiton_services">Aventuras</p></a>
          </div>
 
         <div class="box_services"> 

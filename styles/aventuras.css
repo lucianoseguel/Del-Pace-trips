@@ -40,6 +40,7 @@ body, html {
     align-content: center;
     overflow-x: hidden;
     
+    
   }
 
 
@@ -167,13 +168,14 @@ cursor: pointer;
 
 /*---------------------------------Principal----------------------*/
 
+
+
 section{
     background-color: var(--mint-cream);
     margin: 0;
     padding: 1px;
+    
  }
-
-
 
 
 
@@ -199,7 +201,7 @@ section{
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    top: 40vh;
+    top: 45vh;
     left: 50%;
     transform: translate(-50%, -50%);
     
@@ -218,8 +220,7 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
     height: auto;
-    max-width: 70vw;
-   
+    max-width: 70vw 
     
 }
 
@@ -228,7 +229,7 @@ section{
 h1 {
     
     font-size: 4vw;
-    color: var(--dark-moss-green);
+    color: var(--mint-cream);
     font-size: 5vw;
     font-weight: 1000;
 }
@@ -251,13 +252,7 @@ h2{
 
 }
 
-#objetivo{  /* Objetivo de la empresa */
-    max-width: 55vw;
-    margin: auto;
-    text-align: center;
-    
-    line-height: 2.5em;
-}
+
 
 /* Services----------------------------*/
 
@@ -265,12 +260,13 @@ h2{
     display: grid;
     grid-auto-flow: row;
     align-items:start;
+    grid-gap: 50px;
     justify-items: center;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin: 0;
     
-    grid-template-columns: 35vw 35vw ;
-    grid-template-rows: 40vw ;
+    grid-template-columns: 25vw ;
+    grid-template-rows: 30vw ;
     
 }
 .box_services{
@@ -317,6 +313,68 @@ h2{
     transform: scale(1.2);
     
     
+    
+}
+
+#tipotrans{  /* Medios de transporte y a donde */
+    max-width: 55vw;
+    margin: 20px ;
+    
+    font-size:larger;
+    
+    line-height: 3em;
+}
+
+
+.listadestinos{
+    display: block;
+    background: var(--mint-cream);
+    
+    text-align: left;
+    width: 100vw;
+    margin-left: 10vw;
+    margin-bottom: 40px;
+}
+
+
+
+.listadestinos p{
+    display: flex;
+    align-items: center;
+    
+}
+
+ .listadestinos svg{
+    max-height: 23px;
+    display: flex;
+    margin:5px;
+    fill: var(--dun);
+    
+}
+
+#contacto{
+    display: inline-flex;
+    align-content: center;
+    margin:5px;
+    border: 2px;
+    border-radius: 20px  ;
+    background: var(--rich-black);
+    padding: 7px 15px;
+    color: var(--mint-cream);
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+
+#contacto:hover{
+    
+    background-color: #25D366;;
+    
+}
+
+#contacto svg{
+    fill: var(--mint-cream);
+    margin:1.2px 5px 0 0;
 }
 
 
@@ -338,7 +396,7 @@ h2{
 }
 
 .whatsapp-btn:hover {
-    fill: #128C7E; /* Cambia el color al hacer hover */
+    background-color: #128C7E; /* Cambia el color al hacer hover */
 }
 
 
@@ -375,8 +433,11 @@ footer p{
 }
 
 
+
+
+
 /* When screen is on mobile--------------------------------- */
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 1050px)  {
 
     header{
         height: 9vh;
@@ -413,6 +474,8 @@ footer p{
     }
     
  /* Cuerpo -------------------------------*/
+
+    
  #aside_a{
         
         
@@ -426,7 +489,13 @@ footer p{
     }
 
 
-    
+    #objetivo{  /* Objetivo de la empresa */
+        max-width: 65vw;
+        margin: auto;
+        text-align: left;
+        
+        line-height: 2.5em;
+    }
 
 
 
@@ -461,24 +530,53 @@ footer p{
     }
 
   
+    #tipotrans{  /* Medios de transporte y a donde */
+         width: 55vw;
+        margin: 20px ;
+        
+        font-size:larger;
+        
+        line-height: 3em;
+    }
+    
+
+    .listadestinos{
+        display: block;
+        background: var(--mint-cream);
+        font-size: 20px;
+        text-align: left;
+        width: 90vw;
+        margin:auto;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    
+    
+    .listadestinos p{
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    
+     .listadestinos svg{
+        max-height: 23px;
+        display: flex;
+        margin:5px;
+        fill: var(--dun);
+        
+    }
+    
+
+
     .whatsapp-btn {
         position: fixed;
         bottom: 15px;
         right: 15px;
         width: 8vh;
-        padding: 10px;
         z-index: 10;
+        padding: 10px;
     }
-
-
-    /* footer----------------------------------------*/
-    footer{
-       margin:auto;
-        
-       
-        
-        
-    }
-    
 
 }
