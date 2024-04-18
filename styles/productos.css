@@ -382,6 +382,9 @@ footer p{
 
     header{
         height: 9vh;
+        width: 100vw;
+        position: fixed ;
+        z-index: 50;
     }
 
     .hideonmobile{
