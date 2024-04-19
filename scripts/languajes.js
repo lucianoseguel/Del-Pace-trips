@@ -293,3 +293,50 @@ function portuguese_citytour(){
     */
         }
     }
+
+
+      //-------------ACHAVAL FERRER TRAPICHE LAUR
+
+
+      function portuguese_pack5(){
+        {
+          
+       /*
+            var titulo = document.querySelector('#titulo')
+            titulo.textContent = 'Jantar Ultra Premium - Espaço Trapiche'*/
+        
+            var packs = document.querySelector('#packs')
+            packs.textContent = 'Tour'
+        
+            var info = document.querySelector('#descripcion')
+            info.textContent = 'Comece o seu dia na prestigiosa Bodega Achaval Ferrer, onde você conhecerá a arte da vinificação em um ambiente idílico. Em seguida, dirija-se à icônica Bodega Trapiche para se deliciar com um almoço gourmet de três etapas harmonizado com seus vinhos requintados, seguido de uma degustação guiada. Finalmente, mergulhe no mundo do azeite de oliva na Laur Olivícola, onde descobrirá os segredos de sua produção em um ambiente acolhedor e autêntico.'
+
+            var descripcion2 = document.querySelector('#descripcion2')
+            descripcion2.textContent = 'Com transporte privado e guia especializado incluídos, esta experiência premium oferece a oportunidade de descobrir os sabores e aromas únicos de Mendoza em apenas um dia. Reserve agora e deixe-se encantar pela beleza e cultura desta região vinícola de renome mundial!'
+
+            var incluye = document.querySelector('#incluye')
+            incluye.textContent = 'O que o serviço inclui'
+        
+            var item1 = document.querySelector('#item1')
+            item1.textContent = '- Degustação de vinhos'
+        
+            var item2 = document.querySelector('#item2')
+            item2.textContent = '- Degustação de azeites de oliva'
+
+            var item3 = document.querySelector('#item3')
+            item3.textContent = '- Transporte privado com ar condicionado'
+
+            var item4 = document.querySelector('#item4')
+            item4.textContent = '- Menu degustação'
+
+            var item5 = document.querySelector('#item5')
+            item5.textContent = '- Opções veganas'
+
+            var item6 = document.querySelector('#item6')
+            item6.textContent = '- Garrafas de água'
+    /*    
+            var item7 = document.querySelector('#item7')
+            item7.textContent = '- Garrafas de água'
+    */
+        }
+    }

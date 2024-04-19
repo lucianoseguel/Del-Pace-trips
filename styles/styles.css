@@ -347,7 +347,7 @@ h2{
 footer{
     background-color: var(--field-drab);
     margin: auto;
-    padding: 7vh;
+    padding: 15px;
     display: grid;
     
     justify-items: center;
