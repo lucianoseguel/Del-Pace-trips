@@ -57,7 +57,7 @@ function portuguese_index(){
       
    
     var titulo = document.querySelector('#titulo')
-    titulo.textContent = 'Passeios, Visitas, Degustações'
+    titulo.textContent = 'Passeios, Visitas, Estradas do Vinho'
 
     var packs = document.querySelector('#packs')
     packs.textContent = 'Pacotes com almoço'
@@ -66,7 +66,7 @@ function portuguese_index(){
     titcenas.textContent = 'Jantares'
 
     var oliv = document.querySelector('#oliv')
-    oliv.textContent = ' Oliveira Maguay + VinícolaTempus Alba'
+    oliv.textContent = ' Oliveira Maguay + Vinícola Tempus Alba'
 
     var catena = document.querySelector('#catena')
     catena.textContent = 'Catena Zapata'
@@ -190,7 +190,7 @@ function portuguese_citytour(){
             item3.textContent = '- Transporte privado com ar condicionado'
 
             var item4 = document.querySelector('#item4')
-            item4.textContent = '- Almoço de oito etapas harmonizado'
+            item4.textContent = '- Almoço de 8 etapas harmonizado'
 
             var item5 = document.querySelector('#item5')
             item5.textContent = '- Menu infantil'
@@ -369,10 +369,10 @@ function portuguese_citytour(){
             incluye.textContent = 'O que o serviço inclui'
         
             var item1 = document.querySelector('#item1')
-            item1.textContent = '- Lunch'
+            item1.textContent = '- Almoço'
         
             var item2 = document.querySelector('#item2')
-            item2.textContent = '- Breakfast'
+            item2.textContent = '- Café da manhã'
 
             var item3 = document.querySelector('#item3')
             item3.textContent = '- Churrasco'
