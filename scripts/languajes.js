@@ -354,7 +354,7 @@ function portuguese_citytour(){
             titulo.textContent = 'Cordilheira - Cavalgada'
         
             var packs = document.querySelector('#packs')
-            packs.textContent = 'Tour'
+            packs.textContent = 'Tour e experiência'
         
             var info = document.querySelector('#descripcion')
             info.textContent = 'Embarque em uma aventura inesquecível pelos majestosos cenários montanhosos de Cacheuta com nossas emocionantes cavalgadas. Oferecemos uma variedade de programas que se adaptam a todos os níveis de experiência e horários. Desde passeios relaxantes de 2 horas até emocionantes excursões de dia inteiro de 8 horas, cada passeio é projetado para mergulhar você na serenidade da natureza enquanto explora trilhas cênicas e desfruta de vistas impressionantes.'
