@@ -6,7 +6,7 @@ Portugues = 1
 Ingles = 2
 */
 
-//-----------------------ESPAÑOL
+//-----------------------PORTUGUES-------------------
 
 function span() {
     location.reload();
@@ -295,10 +295,14 @@ function portuguese_citytour(){
     }
 
 
-      //-------------ACHAVAL FERRER TRAPICHE LAUR
+      //-------------cabalgata
 
 
-      function portuguese_pack5(){
+      
+
+
+
+    function portuguese_pack5(){
         {
           
        /*
@@ -334,6 +338,53 @@ function portuguese_citytour(){
 
             var item6 = document.querySelector('#item6')
             item6.textContent = '- Garrafas de água'
+    /*    
+            var item7 = document.querySelector('#item7')
+            item7.textContent = '- Garrafas de água'
+    */
+        }
+    }
+
+
+    function portuguese_cabal(){
+        {
+          
+       
+            var titulo = document.querySelector('#titulo')
+            titulo.textContent = 'Cordilheira - Cavalgada'
+        
+            var packs = document.querySelector('#packs')
+            packs.textContent = 'Tour'
+        
+            var info = document.querySelector('#descripcion')
+            info.textContent = 'Embarque em uma aventura inesquecível pelos majestosos cenários montanhosos de Cacheuta com nossas emocionantes cavalgadas. Oferecemos uma variedade de programas que se adaptam a todos os níveis de experiência e horários. Desde passeios relaxantes de 2 horas até emocionantes excursões de dia inteiro de 8 horas, cada passeio é projetado para mergulhar você na serenidade da natureza enquanto explora trilhas cênicas e desfruta de vistas impressionantes.'
+
+            var descripcion2 = document.querySelector('#descripcion2')
+            descripcion2.textContent = 'Nossos programas incluem opções adicionais para tornar sua experiência ainda mais especial. Alguns passeios oferecem paradas para desfrutar de deliciosos petiscos ou cafés da manhã campestres, enquanto outros terminam com um autêntico churrasco argentino, onde você poderá saborear as melhores carnes na grelha acompanhadas de vinhos locais. Além disso, nossos guias especializados estarão presentes em todos os momentos, compartilhando seu conhecimento sobre a flora e fauna da região, bem como sua paixão pela cultura local.'
+
+            var descripcion3 = document.querySelector('#descripcion3')
+            descripcion3.textContent = 'Para garantir que todos os visitantes possam desfrutar plenamente da experiência, oferecemos serviços de tradução para aqueles que precisam. Se você está procurando por uma aventura tranquila ou uma experiência mais intensa, nossas cavalgadas em Cacheuta oferecem uma oportunidade única para se conectar com a natureza e mergulhar na autêntica vida campestre mendocina. Reserve agora e prepare-se para viver momentos inesquecíveis a cavalo nas montanhas de Cacheuta!'
+
+            var incluye = document.querySelector('#incluye')
+            incluye.textContent = 'O que o serviço inclui'
+        
+            var item1 = document.querySelector('#item1')
+            item1.textContent = '- Lunch'
+        
+            var item2 = document.querySelector('#item2')
+            item2.textContent = '- Breakfast'
+
+            var item3 = document.querySelector('#item3')
+            item3.textContent = '- Churrasco'
+
+            var item4 = document.querySelector('#item4')
+            item4.textContent = '- Cavalgada'
+
+            var item5 = document.querySelector('#item5')
+            item5.textContent = '- Transporte de ida e volta do hotel'
+
+            var item6 = document.querySelector('#item6')
+            item6.textContent = '- Guia e tradutor'
     /*    
             var item7 = document.querySelector('#item7')
             item7.textContent = '- Garrafas de água'
