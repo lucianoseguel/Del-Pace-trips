@@ -349,7 +349,7 @@ footer{
     background-color: var(--field-drab);
     margin: auto;
     padding: 15px;
-    padding-left: 25vw;
+    padding-left: 15vw;
     display: grid;
     
     justify-items: left;
@@ -358,6 +358,10 @@ footer{
   
     
 }
+#contactus{
+    font-size:xx-large;
+}
+
 
 footer a{
     display: flex;
@@ -372,11 +376,15 @@ footer a{
 
 footer p{
     margin-left:  6px;
-    
-    
+
 
 }
 
+#parraffooter{
+    max-width: 400px;
+    font-size: larger;
+    line-height: 2;
+}
 
 /* When screen is on mobile--------------------------------- */
 @media screen and (max-width: 900px)  {
@@ -480,6 +488,7 @@ footer p{
     /* footer----------------------------------------*/
     footer{
        margin:auto;
+       padding: 4vh;
         
        
         
