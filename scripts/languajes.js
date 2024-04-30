@@ -1,10 +1,6 @@
 //IDIOMAS
 
-/* 
-Español = 0
-Portugues = 1
-Ingles = 2
-*/
+                                                                                                                                          
 
 //-----------------------PORTUGUES-------------------
 
@@ -48,10 +44,32 @@ function portuguese_index(){
 
 
 
-        //BODEGAS
+       
     }}
     
+//-----------------------IN OUT---------------------
+    function portuguese_inout(){
+        {
+          
+       
+        var titulo = document.querySelector('#titulo')
+        titulo.textContent = 'Transfer do aeroporto para a acomodação.'
     
+        var packs = document.querySelector('#packs')
+        packs.textContent = 'Pacotes com almoço'
+    
+        var privtrans = document.querySelector('#privtrans')
+        privtrans.textContent = 'Serviços de transporte privado'
+    
+        var contacto = document.querySelector('#contacto')
+        contacto.textContent = 'Solicite o seu traslado'
+    
+         }
+    }
+    
+
+
+     //BODEGAS
     function portuguese_bodegas(){
     {
       

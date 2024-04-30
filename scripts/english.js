@@ -1,11 +1,5 @@
 //IDIOMAS
 
-/* 
-Español = 0
-Portugues = 1
-Ingles = 2
-*/
-
 //-----------------------INGLES-------------------
 
 function span() {
@@ -48,10 +42,35 @@ function english_index(){
 
 
 
-        //BODEGAS
+        
     }}
     
+
+    ///-*--------IN OUT----------------------
+    function english_inout(){
+        {
+          
+       
+        var titulo = document.querySelector('#titulo')
+        titulo.textContent = 'Airport transfer to accommodation.'
     
+        var packs = document.querySelector('#packs')
+        packs.textContent = 'Packs'
+    
+        var privtrans = document.querySelector('#privtrans')
+        privtrans.textContent = 'Private transportation services'
+        
+        var contacto = document.querySelector('#contacto')
+        contacto.textContent = 'Request your transfer'
+
+
+        
+         };
+    }
+
+
+
+    //BODEGAS
     function english_bodegas(){
     {
       

@@ -26,9 +26,9 @@
                 <li><a href="#" class="hov">Contacto</a></li>
                 <li><a href="bodegas.html" class="hov">Visitas y Tours</a></li>
                 <li><a href="aventuras.html" class="hov" id="servicios">Aventuras</a></li>
-                <li><button class="hov"><img src="images/brazil.png" alt="Span" ></button></li>
-                <li><button oneclick="cambiarTexto()" class="hov"><img src="images/usa.png" alt="Span" ></button></li>
-                <li><button oneclick="cambiarTexto()" class="hov"><img src="images/spain.png" alt="Span"></button></li>
+                <li><button onclick="portuguese_inout()" class="hov"><img src="images/brazil.png" alt="Span" ></button></li>
+                <li><button onclick="english_inout()" class="hov"><img src="images/usa.png" alt="Span" ></button></li>
+                <li><button onclick="span()" class="hov"><img src="images/spain.png" alt="Span"></button></li>
             </ul>
              <!--En dispositivo movil-->
             <ul>
@@ -36,9 +36,9 @@
             <li><a href="#" class="hov hideonmobile">Contacto</a></li>
             <li><a href="bodegas.html" class="hov hideonmobile">Visitas y Tours</a></li>
             <li><a href="aventuras.html" class="hov hideonmobile" id="servicios">Aventuras</a></li>
-            <li><button class="hov hideonmobile"><img src="images/brazil.png" alt="Span" ></button></li>
-            <li><button oneclick="cambiarTexto()" class="hov hideonmobile"><img src="images/usa.png" alt="Span" ></button></li>
-            <li><button oneclick="cambiarTexto()" class="hov hideonmobile"><img src="images/spain.png" alt="Span"></button></li>
+            <li><button onclick="portuguese_inout()" class="hov hideonmobile"><img src="images/brazil.png" alt="Span" ></button></li>
+            <li><button onclick="english_inout()" class="hov hideonmobile"><img src="images/usa.png" alt="Span" ></button></li>
+            <li><button onclick="span()" class="hov hideonmobile"><img src="images/spain.png" alt="Span"></button></li>
             <li onclick=showSidebar() class="menu-button"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
             </ul>
         </nav>
@@ -48,14 +48,14 @@
     <!--First block of images-->
     <div class="center">
         
-        <h1 class="absolute_define">Traslado Aeropuerto a hospedaje</h1> 
+        <h1 id="titulo" class="absolute_define">Traslado Aeropuerto a hospedaje</h1> 
         <img src="images/aeropuerto-mendoza-gdos-03.jpg" alt="Aeropuerto" class="background">
         
     </div>
 
     <section>
 
-    <h2>Transportes</h2>
+    <h2 id="packs">Transportes</h2>
     <!--Whats next-->
         <aside id="aside_a">
             
@@ -86,7 +86,7 @@
 
 
     <div class="listadestinos"> <!--Servicios de transporte y lugares-->
-        <h3>Servicios de Transporte privado </h3>
+        <h3 id="privtrans">Servicios de Transporte privado </h3>
         <p><svg id="Flat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
             <path d="M200,164a36.05663,36.05663,0,0,0-33.93579,24H72a28,28,0,0,1,0-56h96a44,44,0,0,0,0-88H72a12,12,0,0,0,0,24h96a20,20,0,0,1,0,40H72a52,52,0,0,0,0,104h94.06421A35.99779,35.99779,0,1,0,200,164Zm0,48a12,12,0,1,1,12-12A12.01312,12.01312,0,0,1,200,212Z"/>
           </svg>
