@@ -101,6 +101,7 @@ nav a{
     justify-content: flex-start;
     padding-top:1rem ;
     font-size: 20px;
+    transition: transform 0.3s ease;
     
     
 }
@@ -118,14 +119,17 @@ nav a{
     justify-content: center;
 }
 
+
+
+
 .menu-button{
 display: none;
 }
 
 #closebar{
     justify-content: end;
-    margin-right: -1.6vw;
-    margin-top: -1.6vh;
+    margin-right: 6vw;
+    margin-top: 1vh;
 
 }
 
@@ -396,13 +400,20 @@ footer p{
         z-index: 50;
     }
 
+
+
+
+    
     .hideonmobile{
         display: none;
     }
 
     .menu-button{
         display: block;
-        padding-right: 1rem;
+        
+        margin-right: 6vw;
+        margin-top: 1vh;
+        
 
         }
     

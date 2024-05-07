@@ -39,7 +39,7 @@ body, html {
     padding: 0;
     align-content: center;
     overflow-x: hidden;
-    
+    scroll-behavior: smooth;
     
   }
 
@@ -347,19 +347,25 @@ footer{
     background-color: var(--field-drab);
     margin: auto;
     padding: 15px;
+    padding-left: 15vw;
     display: grid;
     
-    justify-items: center;
+    justify-items: left;
     color: var(--dun);
-    
+   
+  
     
 }
+#contactus{
+    font-size:xx-large;
+}
+
 
 footer a{
     display: flex;
     align-items: center;
     color: var(--dun);
-    
+   
     fill: var(--dun);
     
     
@@ -368,9 +374,14 @@ footer a{
 
 footer p{
     margin-left:  6px;
-    
-    
 
+
+}
+
+#parraffooter{
+    max-width: 400px;
+    font-size: larger;
+    line-height: 2;
 }
 
 
@@ -479,5 +490,15 @@ footer p{
         z-index: 10;
         padding: 10px;
     }
+
+    footer{
+        margin:auto;
+        padding: 4vh;
+         
+        
+         
+         
+     }
+     
 
 }

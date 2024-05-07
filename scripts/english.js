@@ -40,8 +40,8 @@ function english_index(){
         var servicios = document.querySelector('#servicios')
         servicios.textContent = 'Services'
 
-
-
+        var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
         
     }}
     
@@ -62,6 +62,11 @@ function english_index(){
         
         var contacto = document.querySelector('#contacto')
         contacto.textContent = 'Request your transfer'
+
+        var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
+        
 
 
         
@@ -89,6 +94,10 @@ function english_index(){
 
     var catena = document.querySelector('#catena')
     catena.textContent = 'Catena Zapata'
+
+    var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
 
      }
 }
@@ -119,6 +128,10 @@ function english_citytour(){
     var item3 = document.querySelector('#item3')
     item3.textContent = '- Water'
 
+    var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
+
 
      } }
 
@@ -137,6 +150,10 @@ function english_citytour(){
     
         var item1 = document.querySelector('#item1')
         item1.textContent = 'Horseback riding in Cacheuta'
+
+        var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
     
         
     
@@ -175,6 +192,10 @@ function english_citytour(){
         
             var item5 = document.querySelector('#item5')
             item5.textContent = '- Water Bottles'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
     
          }
     }
@@ -219,6 +240,10 @@ function english_citytour(){
         
             var item7 = document.querySelector('#item7')
             item7.textContent = '- Water bottle'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
     
          }
     }
@@ -259,6 +284,10 @@ function english_citytour(){
 
             var item5 = document.querySelector('#item5')
             item5.textContent = '- Water bottles'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
 /*
             var item6 = document.querySelector('#item6')
             item6.textContent = '- Opções veganas e celíacas'
@@ -300,6 +329,10 @@ function english_citytour(){
 
             var item4 = document.querySelector('#item4')
             item4.textContent = '- Water bottles'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
 /*
             var item5 = document.querySelector('#item5')
             item5.textContent = '- Garrafas de água'
@@ -357,6 +390,10 @@ function english_citytour(){
 
             var item6 = document.querySelector('#item6')
             item6.textContent = '- Water bottles'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
     /*    
             var item7 = document.querySelector('#item7')
             item7.textContent = '- Garrafas de água'
@@ -404,6 +441,10 @@ function english_citytour(){
 
             var item6 = document.querySelector('#item6')
             item6.textContent = '- Guide and translator'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visits to wineries, private transfers, adventures, horseback riding, and more. If you have any questions, suggestions, or want to create your own customized package, contact us through our Whatsapp, Facebook, or Email.'
+        
     /*    
             var item7 = document.querySelector('#item7')
             item7.textContent = '- Garrafas de água'

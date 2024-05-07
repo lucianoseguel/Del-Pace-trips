@@ -42,6 +42,10 @@ function portuguese_index(){
         var servicios = document.querySelector('#servicios')
         servicios.textContent = 'Serviços'
 
+        var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
+
 
 
        
@@ -63,6 +67,10 @@ function portuguese_index(){
     
         var contacto = document.querySelector('#contacto')
         contacto.textContent = 'Solicite o seu traslado'
+
+        var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
     
          }
     }
@@ -88,6 +96,10 @@ function portuguese_index(){
 
     var catena = document.querySelector('#catena')
     catena.textContent = 'Catena Zapata'
+
+    var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
 
      }
 }
@@ -118,6 +130,10 @@ function portuguese_citytour(){
     var item3 = document.querySelector('#item3')
     item3.textContent = '- Garrafas de água'
 
+    var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
+
 
      } }
 
@@ -136,6 +152,10 @@ function portuguese_citytour(){
     
         var item1 = document.querySelector('#item1')
         item1.textContent = 'Cavalgada em Cacheuta'
+
+        var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
     
         
     
@@ -174,6 +194,10 @@ function portuguese_citytour(){
         
             var item5 = document.querySelector('#item5')
             item5.textContent = '- Garrafas de água'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
     
          }
     }
@@ -219,6 +243,9 @@ function portuguese_citytour(){
             var item7 = document.querySelector('#item7')
             item7.textContent = '- Garrafas de água'
     
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
          }
     }
 
@@ -258,6 +285,10 @@ function portuguese_citytour(){
 
             var item5 = document.querySelector('#item5')
             item5.textContent = '- Garrafas de água'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
 /*
             var item6 = document.querySelector('#item6')
             item6.textContent = '- Opções veganas e celíacas'
@@ -299,6 +330,10 @@ function portuguese_citytour(){
 
             var item4 = document.querySelector('#item4')
             item4.textContent = '- Garrafas de água'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
 /*
             var item5 = document.querySelector('#item5')
             item5.textContent = '- Garrafas de água'
@@ -356,6 +391,10 @@ function portuguese_citytour(){
 
             var item6 = document.querySelector('#item6')
             item6.textContent = '- Garrafas de água'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
     /*    
             var item7 = document.querySelector('#item7')
             item7.textContent = '- Garrafas de água'
@@ -403,6 +442,10 @@ function portuguese_citytour(){
 
             var item6 = document.querySelector('#item6')
             item6.textContent = '- Guia e tradutor'
+
+            var parraffooter = document.querySelector('#parraffooter')
+        parraffooter.textContent = 'Tours, visitas a vinícolas, traslados privados, aventuras, passeios a cavalo e muito mais. Se tiver dúvidas, sugestões ou quiser montar seu próprio pacote personalizado, fale conosco através do nosso Whatsapp, Facebook ou E-mail.'
+
     /*    
             var item7 = document.querySelector('#item7')
             item7.textContent = '- Garrafas de água'
