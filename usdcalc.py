@@ -17,8 +17,6 @@ def main():
     dolar = Entry(width=20,font=('Arial',14))
     dolar.grid(column=2,row=2)
     
-    
-
 
     #Cuanto se va a cambiar
     cant_dolar = Label(text='Cuanta cantidad desea transferir por paypal',font=('Arial',14))
