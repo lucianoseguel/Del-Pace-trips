@@ -180,23 +180,17 @@ section{
 
 
 
-.background{ /* DEfine images in background */
-    
+.background{ /* Define images in background */
     padding: 0;
     border: 0;
-    
-    
     display: flex;
-    
     width: 100vw;
     height: 90vh;
     object-fit: cover;
     z-index: -10;
     position: relative;
-    
-    
 }
-.absolute_define {  /* define main text*/ 
+.absolute_define {  /* Define main text */ 
     position: absolute;
     display: flex;
     text-align: center;
@@ -207,7 +201,7 @@ section{
     transform: translate(-50%, -50%);
     
     height: auto;
-    max-width: 70vw 
+    max-width: 70vw; 
 }
 
 
@@ -221,7 +215,7 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
     height: auto;
-    max-width: 70vw 
+    max-width: 70vw ;
     
 }
 
